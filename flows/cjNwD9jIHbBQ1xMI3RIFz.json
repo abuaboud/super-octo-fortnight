@@ -10,9 +10,9 @@
   "version": {
     "id": "mINooHHCphx0QD4ef5QN3",
     "created": "2024-01-06T00:32:35.844Z",
-    "updated": "2024-01-06T00:32:35.849Z",
+    "updated": "2024-01-06T00:33:17.559Z",
     "flowId": "cjNwD9jIHbBQ1xMI3RIFz",
-    "displayName": "Untitled",
+    "displayName": "Test",
     "trigger": {
       "name": "trigger",
       "type": "WEBHOOK",
@@ -23,17 +23,38 @@
         }
       },
       "nextAction": {
-        "name": "step_1",
-        "type": "CODE",
+        "name": "step_2",
+        "type": "PIECE",
         "valid": true,
         "settings": {
-          "input": {},
-          "sourceCode": {
-            "code": "export const code = async (inputs) => {\n  return true;\n};",
-            "packageJson": "\n      {\n        \"dependencies\": {\n        }\n      }"
-          }
+          "input": {
+            "mapping": {
+              "newProperty": "oldProperty"
+            }
+          },
+          "pieceName": "@activepieces/piece-data-mapper",
+          "pieceType": "OFFICIAL",
+          "actionName": "advanced_mapping",
+          "inputUiInfo": {
+            "customizedInputs": {}
+          },
+          "packageType": "REGISTRY",
+          "pieceVersion": "~0.3.0"
         },
-        "displayName": "Code"
+        "nextAction": {
+          "name": "step_1",
+          "type": "CODE",
+          "valid": true,
+          "settings": {
+            "input": {},
+            "sourceCode": {
+              "code": "export const code = async (inputs) => {\n  return true;\n};",
+              "packageJson": "\n      {\n        \"dependencies\": {\n        }\n      }"
+            }
+          },
+          "displayName": "Code"
+        },
+        "displayName": "Advanced Mapping"
       },
       "displayName": "Webhook Trigger"
     },
