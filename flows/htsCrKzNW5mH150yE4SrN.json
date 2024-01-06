@@ -1,0 +1,44 @@
+{
+  "id": "htsCrKzNW5mH150yE4SrN",
+  "created": "2024-01-06T00:06:27.241Z",
+  "updated": "2024-01-06T00:06:35.249Z",
+  "projectId": "UDfeQfJuiD0AAe63qfdae",
+  "folderId": null,
+  "status": "ENABLED",
+  "schedule": null,
+  "publishedVersionId": "T3zuFPf6frqZJjZUwxwvr",
+  "version": {
+    "id": "T3zuFPf6frqZJjZUwxwvr",
+    "created": "2024-01-06T00:06:27.256Z",
+    "updated": "2024-01-06T00:06:35.236Z",
+    "flowId": "htsCrKzNW5mH150yE4SrN",
+    "displayName": "Untitled",
+    "trigger": {
+      "name": "trigger",
+      "type": "WEBHOOK",
+      "valid": true,
+      "settings": {
+        "inputUiInfo": {
+          "currentSelectedData": ""
+        }
+      },
+      "nextAction": {
+        "name": "step_1",
+        "type": "CODE",
+        "valid": true,
+        "settings": {
+          "input": {},
+          "sourceCode": {
+            "code": "export const code = async (inputs) => {\n  return true;\n};",
+            "packageJson": "\n      {\n        \"dependencies\": {\n        }\n      }"
+          }
+        },
+        "displayName": "Code"
+      },
+      "displayName": "Webhook Trigger"
+    },
+    "updatedBy": "bJTlbIDq5udNdOIwUh6hs",
+    "valid": true,
+    "state": "LOCKED"
+  }
+}
