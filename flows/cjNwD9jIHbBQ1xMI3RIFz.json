@@ -1,17 +1,17 @@
 {
-  "id": "htsCrKzNW5mH150yE4SrN",
-  "created": "2024-01-06T00:06:27.241Z",
-  "updated": "2024-01-06T00:06:35.249Z",
+  "id": "cjNwD9jIHbBQ1xMI3RIFz",
+  "created": "2024-01-06T00:32:35.841Z",
+  "updated": "2024-01-06T00:32:35.841Z",
   "projectId": "UDfeQfJuiD0AAe63qfdae",
   "folderId": null,
-  "status": "ENABLED",
+  "status": "DISABLED",
   "schedule": null,
-  "publishedVersionId": "T3zuFPf6frqZJjZUwxwvr",
+  "publishedVersionId": null,
   "version": {
-    "id": "T3zuFPf6frqZJjZUwxwvr",
-    "created": "2024-01-06T00:06:27.256Z",
-    "updated": "2024-01-06T00:06:35.236Z",
-    "flowId": "htsCrKzNW5mH150yE4SrN",
+    "id": "mINooHHCphx0QD4ef5QN3",
+    "created": "2024-01-06T00:32:35.844Z",
+    "updated": "2024-01-06T00:32:35.849Z",
+    "flowId": "cjNwD9jIHbBQ1xMI3RIFz",
     "displayName": "Untitled",
     "trigger": {
       "name": "trigger",
@@ -39,6 +39,6 @@
     },
     "updatedBy": "bJTlbIDq5udNdOIwUh6hs",
     "valid": true,
-    "state": "LOCKED"
+    "state": "DRAFT"
   }
 }
