@@ -1,0 +1,44 @@
+{
+  "id": "4vpOfNMwZODP5LnetgT9O",
+  "created": "2024-01-06T00:15:40.879Z",
+  "updated": "2024-01-06T00:15:40.879Z",
+  "projectId": "UDfeQfJuiD0AAe63qfdae",
+  "folderId": null,
+  "status": "DISABLED",
+  "schedule": null,
+  "publishedVersionId": null,
+  "version": {
+    "id": "VKTYcjPiWDWj9wF4c1Xvm",
+    "created": "2024-01-06T00:15:40.893Z",
+    "updated": "2024-01-06T00:15:45.426Z",
+    "flowId": "4vpOfNMwZODP5LnetgT9O",
+    "displayName": "Test",
+    "trigger": {
+      "name": "trigger",
+      "type": "WEBHOOK",
+      "valid": true,
+      "settings": {
+        "inputUiInfo": {
+          "currentSelectedData": ""
+        }
+      },
+      "nextAction": {
+        "name": "step_1",
+        "type": "CODE",
+        "valid": true,
+        "settings": {
+          "input": {},
+          "sourceCode": {
+            "code": "export const code = async (inputs) => {\n  return true;\n};",
+            "packageJson": "\n      {\n        \"dependencies\": {\n        }\n      }"
+          }
+        },
+        "displayName": "Code"
+      },
+      "displayName": "Webhook Trigger"
+    },
+    "updatedBy": "bJTlbIDq5udNdOIwUh6hs",
+    "valid": true,
+    "state": "DRAFT"
+  }
+}
